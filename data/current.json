@@ -1,6 +1,6 @@
 {
   "as_of": "2026-05-11",
-  "updated_at": "2026-05-11T09:44:40.318190+00:00",
+  "updated_at": "2026-05-11T10:20:49.396641+00:00",
   "commodities": {
     "nickel": {
       "title": "니켈 SHFE (NI0)",
@@ -18212,14 +18212,14 @@
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "decimals": 3,
       "type": "single",
-      "latest": 6.3275,
+      "latest": 6.338,
       "points": 252,
       "returns": {
-        "1D": 1.26,
-        "1W": 9.19,
-        "1M": 10.08,
-        "3M": 8.61,
-        "6M": 20.9
+        "1D": 1.42,
+        "1W": 9.37,
+        "1M": 10.26,
+        "3M": 8.79,
+        "6M": 21.1
       },
       "series": [
         {
@@ -20232,11 +20232,11 @@
         },
         {
           "date": "2026-05-11",
-          "value": 6.3275,
+          "value": 6.338,
           "open": 6.2785,
           "high": 6.3545,
           "low": 6.25,
-          "volume": 15660
+          "volume": 16017
         }
       ]
     },
@@ -20247,14 +20247,14 @@
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "decimals": 0,
       "type": "single",
-      "latest": 3488.0,
+      "latest": 3494.0,
       "points": 251,
       "returns": {
-        "1D": -0.54,
-        "1W": -0.04,
-        "1M": 3.39,
-        "3M": 17.31,
-        "6M": 23.28
+        "1D": -0.37,
+        "1W": 0.13,
+        "1M": 3.56,
+        "3M": 17.51,
+        "6M": 23.5
       },
       "series": [
         {
@@ -22259,11 +22259,11 @@
         },
         {
           "date": "2026-05-11",
-          "value": 3488.0,
+          "value": 3494.0,
           "open": 3447.5,
           "high": 3496.5,
           "low": 3447.5,
-          "volume": 104
+          "volume": 115
         }
       ]
     },
