@@ -1,0 +1,63 @@
+name: Update battery prices
+
+on:
+  schedule:
+    # 평일 한국시간 오후 6시 (UTC 09:00) — Sina/SHFE 일일정산 이후
+    - cron: '0 9 * * 1-5'
+    # 주말 한 번 (KST 토요일 오전 9시 = 금요일 24:00 UTC)
+    - cron: '0 0 * * 6'
+  workflow_dispatch: {}
+
+jobs:
+  fetch-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper/main.py
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/current.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "data: $(date -u +%Y-%m-%d) update"
+            git push
+          fi
+
+      - name: Summarize
+        if: always()
+        run: |
+          if [ -f data/current.json ]; then
+            python -c "
+          import json
+          d = json.load(open('data/current.json'))
+          print(f\"As of: {d['as_of']}\")
+          for cid, c in d.get('commodities', {}).items():
+              latest = c.get('latest')
+              ret_1d = c.get('returns', {}).get('1D')
+              print(f\"  {cid:12s} latest={latest} 1D={ret_1d}%\")
+          if d.get('errors'):
+              print(f\"Errors: {d['errors']}\")
+          "
+          fi

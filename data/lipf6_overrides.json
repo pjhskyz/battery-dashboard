@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-04-03",
+    "avg_usd": 12605, "high_usd": 12830, "low_usd": 12380,
+    "avg_cny": 97200,  "high_cny": 99000, "low_cny": 95000
+  },
+  {
+    "date": "2026-04-10",
+    "avg_usd": 12625, "high_usd": 12850, "low_usd": 12400,
+    "avg_cny": 97300,  "high_cny": 99100, "low_cny": 95100
+  },
+  {
+    "date": "2026-04-17",
+    "avg_usd": 12660, "high_usd": 12880, "low_usd": 12440,
+    "avg_cny": 97500,  "high_cny": 99300, "low_cny": 95200
+  },
+  {
+    "date": "2026-04-24",
+    "avg_usd": 12750, "high_usd": 12950, "low_usd": 12550,
+    "avg_cny": 97800,  "high_cny": 99500, "low_cny": 95400
+  },
+  {
+    "date": "2026-05-01",
+    "avg_usd": 12900, "high_usd": 13100, "low_usd": 12700,
+    "avg_cny": 99200,  "high_cny": 100500, "low_cny": 96800
+  },
+  {
+    "date": "2026-05-08",
+    "avg_usd": 13025.110, "high_usd": 13260, "low_usd": 12790,
+    "avg_cny": 100500, "high_cny": 102000, "low_cny": 99000
+  }
+]
