@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-29",
-  "updated_at": "2026-06-29T13:12:38.485385+00:00",
+  "as_of": "2026-06-30",
+  "updated_at": "2026-06-30T11:48:30.914815+00:00",
   "commodities": {
     "nickel": {
       "title": "니켈 SHFE (NI0)",
@@ -9,14 +9,14 @@
       "source_url": "https://finance.sina.com.cn/futures/quotes/NI0.shtml",
       "decimals": 0,
       "type": "single",
-      "latest": 131810.0,
-      "points": 2273,
+      "latest": 127140.0,
+      "points": 2274,
       "returns": {
-        "1D": -1.62,
-        "1W": -1.44,
-        "1M": -2.49,
-        "3M": -5.59,
-        "6M": 1.78
+        "1D": -3.54,
+        "1W": -5.03,
+        "1M": -4.98,
+        "3M": -8.04,
+        "6M": 1.54
       },
       "series": [
         {
@@ -18202,6 +18202,14 @@
           "low": 131640.0,
           "value": 131810.0,
           "volume": 160294.0
+        },
+        {
+          "date": "204019.000",
+          "open": 128000.0,
+          "high": 128280.0,
+          "low": 124380.0,
+          "value": 127140.0,
+          "volume": null
         }
       ]
     },
@@ -18212,14 +18220,14 @@
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "decimals": 3,
       "type": "single",
-      "latest": 6.1855,
-      "points": 252,
+      "latest": 6.252,
+      "points": 253,
       "returns": {
-        "1D": 0.72,
-        "1W": -2.69,
-        "1M": -1.9,
-        "3M": 14.07,
-        "6M": 16.99
+        "1D": 2.53,
+        "1W": 1.81,
+        "1M": -2.25,
+        "3M": 13.08,
+        "6M": 16.57
       },
       "series": [
         {
@@ -20228,15 +20236,23 @@
           "open": 6.1415,
           "high": 6.1415,
           "low": 6.1415,
-          "volume": 660
+          "volume": 16018
         },
         {
           "date": "2026-06-29",
-          "value": 6.1855,
-          "open": 6.186,
-          "high": 6.2405,
-          "low": 6.151,
-          "volume": 13960
+          "value": 6.0975,
+          "open": 6.121,
+          "high": 6.175,
+          "low": 6.0715,
+          "volume": 16018
+        },
+        {
+          "date": "2026-06-30",
+          "value": 6.252,
+          "open": 6.175,
+          "high": 6.289,
+          "low": 6.1095,
+          "volume": 17942
         }
       ]
     },
@@ -20247,14 +20263,14 @@
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "decimals": 0,
       "type": "single",
-      "latest": 3288.5,
-      "points": 251,
+      "latest": 3305.0,
+      "points": 252,
       "returns": {
-        "1D": -11.06,
-        "1W": -14.82,
-        "1M": -21.61,
-        "3M": 4.8,
-        "6M": 18.47
+        "1D": -2.59,
+        "1W": -11.6,
+        "1M": -15.5,
+        "3M": 5.42,
+        "6M": 17.37
       },
       "series": [
         {
@@ -22255,15 +22271,23 @@
           "open": 3697.5,
           "high": 3697.5,
           "low": 3697.5,
-          "volume": 0
+          "volume": 6
         },
         {
           "date": "2026-06-29",
-          "value": 3288.5,
-          "open": 3310.75,
-          "high": 3310.75,
-          "low": 3276.5,
-          "volume": 72
+          "value": 3393.0,
+          "open": 3393.0,
+          "high": 3393.0,
+          "low": 3393.0,
+          "volume": 6
+        },
+        {
+          "date": "2026-06-30",
+          "value": 3305.0,
+          "open": 3237.5,
+          "high": 3307.0,
+          "low": 3237.5,
+          "volume": 64
         }
       ]
     },
