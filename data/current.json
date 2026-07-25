@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-24",
-  "updated_at": "2026-07-24T11:06:56.670079+00:00",
+  "as_of": "2026-07-25",
+  "updated_at": "2026-07-25T02:33:01.414012+00:00",
   "commodities": {
     "nickel": {
       "title": "니켈 SHFE (NI0)",
@@ -9,14 +9,14 @@
       "source_url": "https://finance.sina.com.cn/futures/quotes/NI0.shtml",
       "decimals": 0,
       "type": "single",
-      "latest": 133710.0,
+      "latest": 132900.0,
       "points": 2274,
       "returns": {
-        "1D": 1.44,
-        "1W": -0.13,
-        "1M": -0.07,
-        "3M": -3.28,
-        "6M": 6.79
+        "1D": 0.83,
+        "1W": -0.73,
+        "1M": -0.68,
+        "3M": -3.87,
+        "6M": 6.14
       },
       "series": [
         {
@@ -18204,11 +18204,11 @@
           "volume": 160294.0
         },
         {
-          "date": "208512.000",
-          "open": 133190.0,
-          "high": 134350.0,
-          "low": 131770.0,
-          "value": 133710.0,
+          "date": "208477.000",
+          "open": 133360.0,
+          "high": 133400.0,
+          "low": 132640.0,
+          "value": 132900.0,
           "volume": null
         }
       ]
@@ -18220,14 +18220,14 @@
       "source_url": "https://finance.yahoo.com/quote/HG=F",
       "decimals": 3,
       "type": "single",
-      "latest": 6.3605,
+      "latest": 6.3395,
       "points": 252,
       "returns": {
-        "1D": 0.88,
-        "1W": 2.26,
-        "1M": 3.57,
-        "3M": 5.38,
-        "6M": 6.54
+        "1D": 0.55,
+        "1W": 1.92,
+        "1M": 3.23,
+        "3M": 5.03,
+        "6M": 6.19
       },
       "series": [
         {
@@ -20240,11 +20240,11 @@
         },
         {
           "date": "2026-07-24",
-          "value": 6.3605,
+          "value": 6.3395,
           "open": 6.336,
           "high": 6.3765,
           "low": 6.309,
-          "volume": 10948
+          "volume": 28473
         }
       ]
     },
@@ -20255,14 +20255,14 @@
       "source_url": "https://finance.yahoo.com/quote/ALI=F",
       "decimals": 0,
       "type": "single",
-      "latest": 3453.25,
+      "latest": 3455.25,
       "points": 252,
       "returns": {
-        "1D": -3.12,
-        "1W": -2.15,
-        "1M": -7.64,
-        "3M": -2.62,
-        "6M": 11.3
+        "1D": -3.06,
+        "1W": -2.09,
+        "1M": -7.58,
+        "3M": -2.56,
+        "6M": 11.36
       },
       "series": [
         {
@@ -22275,11 +22275,11 @@
         },
         {
           "date": "2026-07-24",
-          "value": 3453.25,
+          "value": 3455.25,
           "open": 3465.0,
           "high": 3478.0,
           "low": 3437.25,
-          "volume": 18
+          "volume": 36
         }
       ]
     },
